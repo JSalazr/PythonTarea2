@@ -107,7 +107,7 @@ def ejercicio3():
             pixel = image.getpixel((x,y))
             R,G,B = pixel
             
-            luminosity = 0.21 * R + 0.72 * G + 0.07 * G
+            luminosity = 0.21 * R + 0.72 * G + 0.07 * B
 
             R = int(luminosity)
             G = int(luminosity)
